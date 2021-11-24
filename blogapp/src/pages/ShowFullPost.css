@@ -1,0 +1,48 @@
+.SPostContainer{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    height: 50vh;
+    width: 75vw;
+    padding: 15px;
+    margin:5px;
+}
+.SauthorAndDate{
+display:flex;
+}
+.info{
+flex:8;
+}
+.icons{
+flex:1;
+}
+.SDate{
+    margin-left:50px;
+    opacity: 50%;
+}
+.SAuthor{
+    margin:10px;
+    /* margin-right:20px; */
+}
+.icons>i{
+    margin:5px;
+}
+.ei{
+color: aqua;
+cursor: pointer;
+}
+.di{
+color: tomato;
+cursor: pointer;
+}
+.sdesc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   font-weight: lighter;
+   font-stretch: expanded;
+   font-size: 1.2rem;
+}
+.sicons{
+    margin-left: 30px;
+ color:cadetblue;
+}

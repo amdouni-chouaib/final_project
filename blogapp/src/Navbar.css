@@ -1,0 +1,84 @@
+.Nav {
+  width: 100%;
+  background-color: rgb(8, 32, 63);
+  position: sticky;
+  display: flex;
+  height:10vh;
+}
+li{
+  color:white;
+}
+.lpartflex2 {
+  margin-top: 10px;
+  flex: 3;
+  margin-left: 20px;
+}
+.lpartflex4 {
+  margin-top: 10px;
+  flex: 4.7;
+  margin-left: 20px;
+}
+.cpart {
+  flex: 6;
+}
+.rpart {
+  margin-top: 10px;
+  display: flex;
+  flex: 1;
+  margin-right: 20px;
+  justify-content: center;
+}
+.srch {
+  height: 30px;
+}
+.cpart > ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+.cpart > ul > li {
+  margin: 15px;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.lpartflex2 > i {
+  margin: 5px;
+  cursor: pointer;
+}
+.lpartflex4 > i {
+  margin: 5px;
+  cursor: pointer;
+}
+.cpart > ul > li:hover {
+  color: green;
+  transform: scale(1.05);
+}
+.fb {
+  color: rgb(8, 167, 167);
+}
+.lin {
+  color: rgb(0, 153, 255);
+}
+.ins {
+  color: tomato;
+}
+.pin {
+  color: red;
+}
+#lists {
+  text-decoration: none;
+}
+.searchIcon {
+  color: rgb(0, 204, 255);
+  font-size: 1.5rem;
+  margin-top: 0.9rem;
+  margin-right: 0.5rem;
+}
+.rpart > input {
+  border: none;
+  outline: none;
+  width: 15vw;
+}
+.rpart > input::content {
+  border-bottom: 2px solid rgb(2, 92, 177);
+}

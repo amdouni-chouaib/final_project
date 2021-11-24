@@ -1,0 +1,41 @@
+.formInput {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.btnn {
+  display: inline;
+  width: 100px;
+  border: 2px solid purple;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 20px;
+  padding:5px;
+}
+#title{
+  margin: 20px;
+  outline: none;
+  border:none;
+  border-bottom: 2px solid purple;
+  width:50vw;
+}
+.btnn:hover {
+ background-color: aquamarine;
+  }
+#tarea{
+    margin: 20px;
+    border:none;
+    color:rgb(255, 0, 0);
+    outline: none;
+    border-bottom: 2px solid purple;
+}
+.plus{
+    margin: 20px;
+}
+.uploadimg{
+    border-radius: 10px;
+    height:50vh;
+    object-fit: cover;
+}

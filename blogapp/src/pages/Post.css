@@ -1,0 +1,25 @@
+.PostContainer{
+    display: flex;
+    flex-direction: column;
+    /* height: 60vh;
+    width: 25vw; */
+    padding: 15px;
+    margin:20px;
+}
+.Author{
+    margin:15px;
+}
+.Date{
+    opacity: 50%;
+}
+.heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.desc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.authicon{
+    color: teal;
+}

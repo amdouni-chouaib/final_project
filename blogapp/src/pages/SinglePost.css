@@ -1,0 +1,11 @@
+.PostFlex {
+  display: flex;
+}
+.postCompo {
+  flex:8;
+  margin:20px;
+}
+.sidebarCompo {
+  flex:2;
+  margin-right:20px;
+}
